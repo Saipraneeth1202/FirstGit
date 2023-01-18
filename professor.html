@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Assignment-4</title>
+<link rel="stylesheet" href="coursestyle.css">
+<style>
+::selection {
+	color: red;
+	background: rgb(226, 226, 226)
+}
+
+h1 {
+	color: rgb(232, 230, 20);
+	text-align: center;
+	font-size: 40px;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+p, b, body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+#image {
+	border: 7px;
+	margin: 2px;
+	width: 250px;
+	height: auto;
+	margin: 5px;
+	border: 3px solid;
+	float: right;
+}
+
+.overview {
+	position: absolute;
+	width: 1850px;
+	height: auto;
+	border: 10px solid rgb(6, 122, 231);
+	background-color: rgb(0, 231, 247); )
+	justify-content: center;
+	padding: 20px;
+	margin: 20px;
+	overflow: auto;
+}
+
+.title {
+	align-items: center;
+	display: inline-block;
+	height: 8%;
+	width: 80%;
+	border: 5px solid rgb(6, 122, 231);
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 160px;
+}
+
+.photo_address {
+	float: left;
+	height: auto;
+	width: 30%;
+	border: 5px solid rgb(6, 122, 231);
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.researchsummary {
+	float: right;
+	height: auto;
+	width: 1200px;
+	border: 5px solid rgb(6, 122, 231);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.teachingsummary {
+	float: left;
+	height: auto;
+	width: 30%;
+	border: 5px solid rgb(6, 122, 231);
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.researchprojects {
+	float: right;
+	height: auto;
+	width: 1200px;
+	border: 5px solid rgb(6, 122, 231);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.international {
+	float: left;
+	height: auto;
+	width: 30%;
+	border: 5px solid rgb(6, 122, 231);
+	margin-right: 10px;
+	padding: 10px;
+	overflow: auto;
+}
+
+.comments {
+	height: auto;
+	width: 1800px;
+	border: 5px solid rgb(6, 122, 231);
+	margin-bottom: 10px;
+	overflow: auto;
+	padding: 10px;
+}
+
+#proj {
+	float: right;
+	margin-right: 350px;
+	margin-top: 300px;
+}
+
+a:link {
+	color: rgb(0, 89, 255);
+}
+
+a:visited {
+	color: rgb(211, 18, 195);
+}
+
+a:hover {
+	color: rgb(247, 26, 26);
+}
+
+a:active {
+	color: rgb(56, 233, 2);
+}
+
+#nav {
+	width: 1920px;
+	font-size: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#nav li a:hover:not {
+	background-color: #111;
+}
+
+#nav a:hover {
+	background-color: #04AA6D;
+}
+
+input textarea, [type=text] {
+	width: 800px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* #projs{
+            color: rgb(0, 0, 0);
+            background: rgb(245, 241, 192);
+        } */
+</style>
+</head>
+
+<body>
+
+	<ul id="nav">
+		<li><a href="#address">About</a></li>
+		<li><a href="#research">Research</a></li>
+		<li><a href="#teaching">Teaching</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#international">Professional Services</a></li>
+		<li><a href="#comments2">Feedback Form</a></li>
+	</ul>
+	<br>
+	<br>
+	<img id="image1"
+		src="https://uohyd.ac.in/wp-content/uploads/2021/10/uoh-logo-horizontal-jpeg.jpg">
+	<br>
+	<br>
+	<div class="overview">
+		<div class="title">
+			<h1>Satish Narayana Srirama</h1>
+		</div>
+		<div class="photo_address">
+			<h2>
+				<a name="address"> About</a>
+			</h2>
+			<hr noshade="bold">
+			<a name="address"> </a> <img id="image"
+				src="https://scis.uohyd.ac.in/~srirama/Satish.jpg"> <br>
+			<b> Associate Professor <br> School of Computers and
+				Information Sciences <br> University Of Hyderabad, India<br></b><br>
+			<p>
+				<b>Address:</b><br> School of Computer and Information Sciences<br>
+				University of Hyderabad<br> Gachibowli, Hyderabad, Telangana
+				500046, India.
+			<p>
+				<b>Email : </b> satish.srirama@uohyd.ac.in
+			</p>
+			<br>
+			<br> <b> Visiting Professor <br> Honorory Head of
+				Mobile & Cloud Lab <br> Institute of Computer Science <br>University
+				of Tartu, Estonia<br></b>
+			<p>
+				<b>Email : </b> satish.srirama@ut.ee
+			</p>
+		</div>
+		<div class="researchsummary">
+
+			<h2>
+				<a name="research">Research Summary </a>
+			</h2>
+			<hr noshade="bold">
+			<h2>List of Publications</h2>
+			<ul>
+				<br>
+				<li>Sreenivasu Mirampalli, S. N. Srirama, R. Wankar,
+					Raghavendra Rao Chillarige: Hierarchical Fuzzy-based Quality of
+					Experience (QoE)-aware Application Placement in Fog Nodes,
+					Software: Practice and Experience, ISSN: 1097-024X, 2022. Wiley.
+					DOI: 10.1002/spe.3147 (In print)</li>
+				<li>C. K. Dehury, S. N. Srirama, P. K. Donta, Schahram Dustdar:
+					Securing clustered edge intelligence with blockchain, IEEE Consumer
+					Electronics Magazine, Print ISSN: 2162-2248, 2022. IEEE. DOI:
+					10.1109/MCE.2022.3164529 (In print)</li>
+				<li>D. G. Roy, Bipasha Mahato, D. De, S. N. Srirama: Quality of
+					Experience aware Recommendation System with IoT Data Filtration for
+					Handshaking among Users using MQTT-SN Protocol, Journal of Ambient
+					Intelligence and Humanized Computing, Print ISSN: 1868-5137, 2022.
+					Springer. DOI: 10.1007/s12652-021-03644-5 (In print)</li>
+				<li>A. Hazra, M. Adhikari, T. Amgoth, S. N. Srirama: A
+					Comprehensive Survey on Interoperability in IIoT: Taxonomy,
+					Standards and Future Directions, ACM Computing Surveys, ISSN:
+					0360-0300, 55(1):Article 9, 35 pages, 2023. ACM Press, New York,
+					USA. DOI: 10.1145/3485130</li>
+				<li>A. Hazra, M. Adhikari, T. Amgoth, S. N. Srirama: <a
+					href="./publications/2021_TNSE3122178_IntServDeplPolicy.pdf">Intelligent
+						Service Deployment Policy for Next-Generation Industrial Edge
+						Networks</a>, IEEE Transactions on Network Science and Engineering,
+					ISSN: 2334-329X, 2021. IEEE. DOI: 10.1109/TNSE.2021.3122178 (In
+					print)
+				</li>
+				<li>A. Hazra, M. Adhikari, T. Amgoth, S. N. Srirama: <a
+					href="./publications/2021_JIOT3110910_CollabAIPartialServPro.pdf">Collaborative
+						AI-enabled Intelligent Partial Service Provisioning in Green
+						Industrial Fog Networks</a>, IEEE Internet of Things Journal, ISSN:
+					2327-4662, 2021. IEEE. DOI: JIOT.2021.3110910 (In print)
+				</li>
+				<li>A. Munusamy, M. Adhikari, M. A. Khan, V. G. Menon, S. N.
+					Srirama, Linss Alex, Mohammad Khosravi: Edge-centric Secure Service
+					Provisioning in IoT-Enabled Maritime Transportation Systems, IEEE
+					Transactions on Intelligent Transportation Systems, Print ISSN:
+					1524-9050, 2021. IEEE. DOI: 10.1109/TITS.2021.3102957 (In print)</li>
+				<li>Praveen Kumar Donta, S. N. Srirama, T. Amgoth, Chandra
+					Sekhara Rao Annavarapu: <a
+					href="https://www.sciencedirect.com/science/article/pii/S2352864821000845">Survey
+						on recent advances in IoT application layer protocols and machine
+						learning scope for research directions</a>, Digital Communications and
+					Networks, ISSN: 2352-8648, 2021. KeAi. DOI:
+					10.1016/j.dcan.2021.10.004 (In print)
+				</li>
+				<li>Ambigavathi Munusamy, M. Adhikari, Venki Balasubramanian,
+					Mohammad Ayoub Khan, Varun G. Menon, Danda Rawat, S. N. Srirama: <a
+					href="./publications/2021_JIOT3078148_FinTech.pdf">Service
+						Deployment Strategy for Predictive Analysis of FinTech IoT
+						Applications in Edge Networks</a>, IEEE Internet of Things Journal,
+					ISSN: 2327-4662, 2021. IEEE. DOI: 10.1109/JIOT.2021.3078148 (In
+					Print)
+				</li>
+				<li>A. Hazra, M. Adhikari, T. Amgoth, S. N. Srirama: Fog
+					Computing for Energy-efficient Data Offloading of IoT Applications
+					in Industrial Sensor Networks, IEEE Sensors Journal, ISSN:
+					1530-437X, Volume: 22, Issue: 9, pp. 8663-8671, May, 2022. IEEE.
+					DOI: 10.1109/JSEN.2022.3157863</li>
+				<li>M. Adhikari, A. Munusamy, N. Kumar, S. N. Srirama: <a
+					href="./publications/2021_TII3096672_Cybertwin.pdf">Cybertwin-driven
+						Resource Provisioning for IoE Applications at 6G-enabled Edge
+						Networks</a>, IEEE Transactions on Industrial Informatics, Print ISSN:
+					1551-3203, volume: 18, issue: 7, pp.4850-4858, July 2022. IEEE.
+					DOI: 10.1109/TII.2021.3096672
+				</li>
+				<li>M. Adhikari, S. N. Srirama, T. Amgoth: A Comprehensive
+					Survey on Nature-Inspired Algorithms and Their Applications in Edge
+					Computing: Challenges and Future Directions, Software: Practice and
+					Experience, ISSN: 1097-024X, volume: 52, issue: 4, pp. 1004-1034,
+					2022. Wiley. DOI: 10.1002/spe.3025</li>
+				<li>S. Poojara, C. K. Dehury, P. Jakovits, S. N. Srirama:
+					Serverless data pipeline approaches for IoT data in fog and cloud
+					computing, Future Generation Computer Systems - Journal, ISSN:
+					0167-739X, volume: 130, pp. 91-105, 2022. Elsevier press. DOI:
+					10.1016/j.future.2021.12.012</li>
+				<li>C. K. Dehury, P. Jakovits, S. N. Srirama, G. Giotis, G.
+					Garg: <a href="https://arxiv.org/pdf/2111.02524.pdf">TOSCAdata:
+						Modelling data pipeline applications in TOSCA</a>, Journal of Systems
+					and Software, ISSN: 0164-1212, volume: 186, Article: 111164, 15
+					pages, 2022. Elsevier. DOI: 10.1016/j.jss.2021.111164
+				</li>
+				<li>Tek Raj Chhetri, C. K. Dehury, A. Lind, S. N. Srirama, Anna
+					Fensel: A Combined System Metrics Approach to Cloud Service
+					Reliability Using Artificial Intelligence, Big data and cognitive
+					computing - Journal, ISSN: 2504-2289, volume: 6, issue: 1,
+					article-number: 26, pp. 1-28, 2022. MDPI. DOI:
+					https://doi.org/10.3390/bdcc6010026</li>
+			</ul>
+			<h2>Research Interests</h2>
+			<ul>
+				<li>Research in establishing and studying private clouds</li>
+				<li>Research in migrating and adapting scientific/enterprise
+					computing applications to the cloud</li>
+				<li>Research in mobile web and cloud services, sensor data
+					analysis</li>
+				<li>Research in IoT and designing cloud economic and deployment
+					models.</li>
+			</ul>
+			<table>
+				<tr>
+					<th><a
+						href="https://scis.uohyd.ac.in/~srirama/publications.html">
+							List of Publications </a></th>
+					<th><a
+						href="https://scis.uohyd.ac.in/~srirama/supervision.html">
+							Research Supervision </a></th>
+					<th><a href="https://scis.uohyd.ac.in/~srirama/talks.html">
+							Keynote / Invited talks </a></th>
+				</tr>
+				<tr>
+					<td>Papers in Refereed International Scientific Journals</td>
+					<td>Theses under supervision</td>
+					<td>International Conferences</td>
+				</tr>
+				<tr>
+					<td>Books</td>
+					<td>Supervised students</td>
+					<td>Selected Invited Talks/Presentations/Workshops/Visits</td>
+				</tr>
+				<tr>
+					<td>Book Chapters</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Papers in Refereed International Conferences</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Papers in Refereed International Workshops</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Dissertations</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Supervised PhD Theses</td>
+					<td></td>
+					<td></td>
+				</tr>
+
+
+			</table>
+			<h2>Awards</h2>
+			<ul>
+				<li>I was adjudged the <a href="https://cs.ut.ee/en/awards">
+						"Researcher of the year - 2011" </a> by Institute of Computer Science,
+					University of Tartu.
+				</li>
+			</ul>
+
+		</div>
+		<div class="teachingsummary">
+			<h2>
+				<a name="teaching">Teaching summary</a>
+			</h2>
+			<hr noshade="bold">
+			<ul>
+				<h4>First Semester (2022/23)</h4>
+				<li>Distributed Computing - CS424 - Optional Core (M.Tech CS) &
+					Elective (for others)</a> (3 credits) (First semester 2022/23)
+				</li>
+				<li>Internet Technologies - IE302 (IMTECH)</a> (First semester
+					2022/23)
+				</li>
+				<li>Internet Technologies Lab - IE307 (IMTECH) </a> (First semester
+					2022/23)
+				</li>
+				<br>
+				<h4>Second Semester 2021/22</h4>
+				<li>Distributed Data Processing on the Cloud - Elective
+					(M.Tech, IMTech, PhD)</a> (3 credits) (Second semester 2021/22)
+				</li>
+			</ul>
+			<table align="center">
+				<tr>
+					<th>Year Span</th>
+					<th>Number of Courses taught</th>
+				</tr>
+				<tr>
+					<td>2011 - 2015</td>
+					<td>33</td>
+				</tr>
+				<tr>
+					<td>2016 - 2020</td>
+					<td>27</td>
+				</tr>
+				<tr>
+					<td>2021 - 2022</td>
+					<td>5*</td>
+				</tr>
+			</table>
+			<br> <b> Here is my detailed <a
+				href="https://scis.uohyd.ac.in/~srirama/teaching.html"> Teaching
+					Profile </a>
+			</b>
+		</div>
+		<div class="international">
+			<h2>
+				<a name="international"> Professional Services </a>
+			</h2>
+
+			<ul name="services">
+				<li>Editor of <a
+					href="http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291097-024X">Wiley
+						Software: Practice and Experience </a> Journal, ISSN: 1097-024X, a 49
+					year old journal from Jan 2016 - to date.
+				</li>
+				<li>Associate Editor of <a
+					href="http://www.computer.org/portal/web/tcc/about">IEEE
+						Transactions in Cloud Computing</a>, from 2013 till January 2017.
+				</li>
+				<li>Guest Editor of <a
+					href="http://www.computer.org/cms/Computer.org/transactions/cfps/cfp_tccsi_mc.pdf">Special
+						Issue on Mobile Clouds</a> @ IEEE TCC
+				</li>
+				<li>Peer reviewed papers for such high reputed journals as
+					Pervasive and Mobile Computing -- Elsevier, Journal of Parallel and
+					Distributed Computing -- Elsevier, Future Generation Computer
+					Systems -- Elsevier, IEEE Software magazine, IEEE Transactions on
+					Services Computing, The Computer Journal -- Oxford University
+					Press, Social Network Analysis and Mining -- Springer, Computing --
+					Springer, International Journal of Pervasive Computing and
+					Communications (IJPCC) -- Emerald, International Journal of Cloud
+					Computing -- Inderscience, International Journal of Information and
+					Communication Technology -- Inderscience etc.</li>
+			</ul>
+			<h2 name="internation">International Outreach in the past 3
+				years</h2>
+			<ul>
+				<li>Workshop Chair of <a href="http://www.bda2022.org/">The
+						10th International Conference on Big Data Analytics (BDA 2022)</a>,
+					IIIT Hyderabad, December 19-22, 2022.
+				</li>
+				<li>Track Co-Chair of <a
+					href="http://www.icccn.org/icccn22/index.html">The 31st
+						International Conference on Computer Communications and Networks
+						(ICCCN 2022)</a>, July 25 - July 27, 2022.
+				</li>
+				<li>Local Arrangement Committee member of <a
+					href="https://www.dasfaa2022.org/">27th International
+						Conference on Database Systems for Advanced Applications
+						(DASFAA-2022)</a>, April 11-14, 2022, Hyderabad, India.
+				</li>
+				<li>Program Co-Chair of <a href="http://bda2021.org/">The
+						9th International Conference on Big Data Analytics (BDA 2021).</a></li>
+				<li>Program committee member of <a
+					href="https://icfec2021.eeecs.qub.ac.uk/">5th IEEE
+						International Conference on Fog and Edge Computing (ICFEC 2021).</a></li>
+				<li>Program committee member of The 9th IEEE International
+					Conference on Cloud Computing in Emerging Markets (CCEM 2020).</li>
+				<li>Workshop Chair of <a href="http://www.bda2020.org/">The
+						Eighth International Conference on Big Data Analytics (BDA 2020).</a></li>
+				<li>Program Co-Chair of <a
+					href="https://igitsarang.ac.in/icmib-2020/">International
+						Conference on Machine Learning, Internet of Things and Big Data
+						(ICMIB 2020).</a></li>
+				<li>Vice-Chair for the Program committee of <a
+					href="http://cloudbus.org/ccgrid2020/">The 20th IEEE/ACM
+						International Symposium on Cluster, Cloud and Internet Computing
+						(CCGrid 2020).</a></li>
+				<li>Program committee member of 6th International conference on
+					Mathematics and Computing (ICMC 2020).</a>
+				</li>
+				<li>Program committee member of IEEE/ACM 12th International
+					Conference on Utility and Cloud Computing (UCC 2019). </a>
+				</li>
+				<ul>
+					<h4>Summary :</h4>
+
+					<ul>
+						<li><a href="#services">Professional Services</a></li>
+						<li><a href="#internation">International Outreach</a></li>
+					</ul>
+					<br>
+					<b> Furthur details are available <a
+						href="https://scis.uohyd.ac.in/~srirama/pc.html"> here </a></b>
+					<br>
+		</div>
+		<div class="researchprojects">
+			<h2>
+				<a name="projects">Projects</a>
+			</h2>
+			<ul>
+				<li>Fog computing framework for monitoring campus flora and
+					fauna using AI/ML, IoE Project, University of Hyderabad, Dec 2021 -
+					Mar 2024</li>
+				<li>Next-Generation Internet of Things Applications
+					Orchestration and Service Provisioning at Fog Networks, SERB
+					project, University of Hyderabad, Jan 2022 - Jan 2025.</li>
+				<li><a href="https://www.excite.it.ee"> Estonian Centre of
+						Excellence in ICT Research (EXCITE) </a></li>
+				<li><a
+					href="http://mc.cs.ut.ee/mcsite/research/internet-of-things">
+						Internet of Things (IoT) and Fog computing</a></li>
+				<li><a
+					href="http://mc.cs.ut.ee/mcsite/research/mobile-web-services">Mobile
+						Web Service Provisioning</a></li>
+			</ul>
+			<h2>Finished Projects</h2>
+			<ul>
+				<li><a href="https://radon-h2020.eu/"> Rational
+						decomposition and orchestration for serverless computing (RADON) -
+						EU H2020 - (Jan 2018 - Jun 2021)</a></li>
+				<li><a href="http://mc.cs.ut.ee/mcsite/projects/remics">REuse
+						and Migration of legacy applications to Interoperable Cloud
+						Services (REMICS) </a>- Enlarged EU FP7 STREP -- Finished November
+					2013</li>
+				<li><a
+					href="http://www.innovation4welfare.eu/307/subprojects/robo-m-d.html">ROBO
+						M. D.</a> - EU INTERREG IVC -- Finished October 2011</li>
+				<li>Semantic Business Processes based on Software-as-a Service
+					and Cloud Computing (SITIO) - EU FP7 STREP -- Finished October 2011
+				</li>
+				<li><a href="http://mc.cs.ut.ee/mcsite/research/mobile-cloud">Mobile
+						Cloud</a></li>
+				<li><a
+					href="http://mc.cs.ut.ee/mcsite/research/scientific-computing-on-the-cloud">Scientific
+						Computing on the Cloud (SciCloud) </a></li>
+			</ul>
+			<h2>
+				<a href="http://mc.cs.ut.ee/mcsite/projects">List of projects</a>
+			</h2>
+			<table id="proj">
+				<tr>
+					<th>&nbsp;&nbsp;Projects Currently Working in&nbsp;&nbsp;</th>
+					<th>&nbsp;&nbsp;Finished Projects&nbsp;&nbsp;</th>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>22</td>
+				</tr>
+			</table>
+			<ul id="projs">
+				<li>RADON</li>
+				<li>Energy-Efficient IoT</li>
+				<li>Middleware, Trust and IoT Applications</li>
+				<li>Big Data IoT</li>
+				<li>Sensor Data and Image Procesing</li>
+				<li>Asynchronous Notification Services for Mobiles</li>
+				<li>DAMA</li>
+				<li>IOT and Smart Solutions Lab</li>
+				<li>Wiseware</li>
+				<li>Migrating Enterprise Applications to cloud</li>
+				<li>NEWT</li>
+				<li>Aneka Cloud</li>
+				<li>Desktop to Cloud Migration</li>
+				<li>Pervasive Mobile Applications</li>
+				<li>ROBO M.D.</li>
+				<li>Stratus</li>
+				<li>Mobile CLud Middleware</li>
+				<li>Mobile CLoud Applications</li>
+				<li>Moblile Host</li>
+				<li>SciCloud</li>
+				<li>Mobile Web Service Discovery</li>
+
+			</ul>
+		</div>
+		<div class="comments">
+			<h2>
+				<a name="comments2"> Feedback Form</a>
+			</h2>
+			<hr noshade="bold">
+			<br>
+			<form action="action.php">
+				<b><label for="name">Full Name : </label></b> <input type="text"
+					id="name" name="name" placeholder="Enter your name here"> <br>
+				<br> <b><label for="email">Last Name : </label></b> <input
+					type="text" id="mail" name="email" placeholder="Email address">
+				<br>
+				<br> <b><b><label for="comments1">Comments : </label></b></b> <br>
+				<br>
+				<textarea id="comments1" name="comments1" rows="15"
+					style="overflow: auto; resize: none" cols="130"> </textarea>
+				<input type="submit" value="Submit"> <br>
+				<br>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
