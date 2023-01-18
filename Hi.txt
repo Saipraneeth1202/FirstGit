@@ -1,3 +1,5 @@
 Hello 
 This is a sample text file to perform operations on git repository
 bye
+
+Added a new line to make a change
